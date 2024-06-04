@@ -24,6 +24,6 @@ Next Verison of script :
 Let's consider, as of now, we do not know the root cause of the error, once the root is figured out, let me consider the temporary fix as restarting the particular service means, we can add the service restart step in the same script.
 
 Where I have used ChatGPT :
-I have created a base script (base_script.sh), and I have used ChatGPT to enhance the base script by providing my inputs to it. 
-ChatGPT suggested going with a text file that will have having server instead of having it as an array
-Used ChatGPT to find the limitations of the script, so that we could figure out the edge conditions
+1 . I have created a base script (base_script.sh), and I have used ChatGPT to enhance the base script by providing my inputs to it. 
+2 . ChatGPT suggested going with a text file that will have having server instead of having it as an array
+3 . Used ChatGPT to find the limitations of the script, so that we could figure out the edge conditions
