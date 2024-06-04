@@ -18,7 +18,7 @@ Cron expression : */10 * * * *
 
 Deep idea : 
 Extra feature - We can use the same script to trigger the alert if, anyone the parameters in CPU, memory, or disk have more than 85% even though we are not having errors in the logs. (Extra idea)
-False alarm condition - We anticipate encountering errors for a while after launching this script. Since it runs every 10 minutes, this could lead to excessive alerts being triggered every 10 minutes. To address this, we can introduce a counter flag. If an alert is triggered for the first time, the script will hold off on creating new alerts for the next 30 minutes.
+False alarm condition - We anticipate encountering errors for a while after launching this script. Since it runs every 10 minutes, this could lead to excessive alerts being triggered every 10 minutes. To address this, we can introduce a counter flag. If an alert is triggered for the first time, the script will hold off on creating new alerts for the next 30 minutes(SUPPRESS_ALERTS).
 
 Next Verison of script : 
 Let's consider, as of now, we do not know the root cause of the error, once the root is figured out, let me consider the temporary fix as restarting the particular service means, we can add the service restart step in the same script.
